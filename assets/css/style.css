@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.about-container {
+    height: 100vh;
+    background: url('../images/yoga.jpeg') no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
