@@ -4,12 +4,29 @@ html, body {
     font-family: 'Marck Script', cursive;
 }
 
-/*Nav*/
+/* Nav */
 .navbar {
-    padding: .7rem;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
 }
 
+.navalert-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-right: 0;
+    scroll-padding-left: 0;
+    z-index: 1;
+}
 
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Main */
 .main-container {
     height: 100vh;
     background: url('../images/purple.yoga.jpeg') no-repeat bottom center fixed; 
@@ -25,7 +42,7 @@ html, body {
 }
 
 
-/*Jumbotron*/
+/* Jumbotron */
 
 .jumbotron {
     background-color: transparent;
@@ -37,40 +54,26 @@ html, body {
     font-weight: bold;
 }
 
-/*About*/
+/* About */
 
-.about {
-    width: 70%;
-    margin: 0 auto;
-    padding-top: 4rem;
-}
-
-.img-fluid {
+.image-float {
+    float: right;
+    clear: right;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: auto;
     height: auto;
-    max-width: 100%;
 }
 
-img {
-    border-style: none;
-    vertical-align: middle;
-}
-
-.col-md-6 {
+.about-text {
     position: relative;
-    padding-right: 14px;
-    padding-left: 14px;
-    width: 100%;
 }
 
-.mb-4 {
-    margin-bottom: 4em;
+.box {
+    text-align: inline-block;
 }
 
-.ml-auto {
-    margin-left: auto;
-}
-
-/*Courses*/
+/* Courses */
 
 .fa-leaf {
     color: #783977;
