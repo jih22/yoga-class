@@ -206,6 +206,7 @@ footer {
     margin-top: auto;
     position: relative;
     text-align: right;
+    color: #491558;
 }
 
 .line {
@@ -214,11 +215,9 @@ footer {
     border-top: 5px solid #491558;
     text-align: right;
 }
-
 #verticle-line{
-    width: 1px;
-    height: 90px;
-    background-color: #491558;
-    margin-right: 100px;
+    border-left: 2px solid #491558;
+    height: 300px;
+    float: right;
+    color: #491558;
 }
-
