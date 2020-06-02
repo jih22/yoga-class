@@ -26,10 +26,10 @@ body {
     margin-left: auto;
 }
 
-.btn-light-nav {
+.btn-nav {
     background-color: #491558;
+    border: 5px solid #491558;
     color: #fafafa;
-    border: 1px solid #491558;
 }
 
 /* Main */
@@ -48,56 +48,57 @@ body {
     position: relative;
 }
 
+.btn-main {
+    background-color: #491558;
+    border: 5px solid #491558;
+    color: #fafafa;
+}
+
 /* Jumbotron */
 
 .jumbotron-main {
     position: relative;
-    color: #ffffff;
+    color: #fafafa;
     font-weight: 900;
     font-size: 30px;
     margin-top: 20px;
+    text-align: center;
 }
 
 
 /* About */
 
-.image-float {
-    float: right;
-    clear: right;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    width: auto;
-    height: auto;
-}
-
-.section-about {
-    position: relative;
-    margin-top: 70px;
-    margin-bottom: 40px;
-    padding: 3px 30px 2px 10px;
-}
-
-.section-about hr {
-    width: 60%;
+.about-hr {
+    width: 15rem;
     margin-top: .4rem;
     margin-bottom: 1rem;
-    border-top: 5px solid #491558;
+    border-top: 4px solid #491558;
+    margin-left: -31px;
 }
 
-.front {
+.about-me {
     text-align: center;
-    color:#000000; 
+    color:#000000;
+    font-size: 45px;
+    margin-top: 10%; 
 }
 
-.btn-light {
+.btn-about {
     background-color: #491558;
-    border: 4px solid #491558;
+    border: 5px solid #491558;
     color: #fafafa;
-    margin-left: 60%;
     margin-top: 10%;
+    text-align: middle;
 }
 
-.special {
+.lead {
+    text-align: center;
+    margin-top: 14%;
+    margin-left: 20px;
+}
+
+
+.space {
     width: 7%;
     margin-top: .4rem;
     margin-bottom: 1rem;
@@ -106,6 +107,14 @@ body {
 
 
 /* Courses */
+
+.courses {
+    text-align: center;
+}
+
+.container-courses {
+    text-align: center;
+}
 
 .fa-leaf {
     color: #491558;
@@ -133,6 +142,11 @@ footer {
     color: #fafafa;
     padding-top: 1rem;
 }
+
+.center-footer {
+    text-align: center;
+}
+
 .fa-clock {
     color: #491558;
     font-size: 2em;
@@ -167,46 +181,11 @@ footer {
 
 /* Header */
 
-.left {
-    width: 100vh;
-    margin-top: auto;
-    margin-left: 90px;
-    position: relative;
-    background-color: #ffffff;
+.header-container {
     text-align: left;
+    margin-top: 5%;
+
+.subscription {
+    
 }
 
-.button-right {
-    background-color: #491558;
-    border: 5px solid #491558;
-    color: #fafafa;
-    margin-left: auto;
-    margin-bottom: center;
-}
-
-.header-icon {
-    font-size: 35px;
-}
-
-.offer-class {
-    font-size: 37px;
-    font-weight: 700;
-    margin-right: 90px;
-    margin-top: auto;
-    position: relative;
-    text-align: right;
-    color: #491558;
-}
-
-.line {
-    color: #491558;
-    width: 25%;
-    border-top: 5px solid #491558;
-    text-align: right;
-}
-#verticle-line{
-    border-right: 5px solid #491558;
-    height: 80em;
-    float: right;
-    border-bottom: 60px;
-}
