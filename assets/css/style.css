@@ -110,10 +110,12 @@ body {
 
 .courses {
     text-align: center;
+    margin-top: 50px;
 }
 
 .container-courses {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .fa-leaf {
@@ -183,9 +185,52 @@ footer {
 
 .header-container {
     text-align: left;
-    margin-top: 5%;
-
-.subscription {
-    
+    margin-top: 60px;
 }
 
+.header-icon {
+    font-size: 27px;
+}
+
+.plan {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-plan {
+    text-align: center;
+    background-color: #e2cae2;
+    margin-bottom: 60px;
+}
+
+.hr-subs {
+    width: 15rem;
+    border-top: 4px solid #491558;
+}
+
+.subscription{
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.price {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #491558;
+}
+
+.fa-plus {
+    margin-top: 25px;
+    font-size: 15px;
+    color: #491554;
+}
+
+.btn-plan {
+    background-color: #491558;
+    border: 7px solid #491558;
+    color: #fafafa;
+    margin-top: 30px;
+    width: 13rem;
+}
