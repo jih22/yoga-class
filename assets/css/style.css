@@ -1,45 +1,36 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:wght@700&family=Sriracha&display=swap:400,500,600,700');
+
+/* ---------------- Nav --------------- */
+/*.navbar {
     width: 100%;
-    height: 100%
-    font-family: 'Marck Script', cursive;
+}
+*/
+.navbar .navbar-brand {
+    font-weight: 800;
+    color: #491558;
+    font-family: 'Sriracha', cursive;
 }
 
-/* Nav */
 .navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
+    background-color: transparent;
 }
 
 .navalert-container {
     position: absolute;
-    left: 0;
-    top: 0;
-    padding-right: 0;
-    scroll-padding-left: 0;
     z-index: 1;
 }
 
-.container-fluid {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .btn-nav {
-    background-color: #491558;
-    border: 5px solid #491558;
+    background-color: transparent;
     color: #fafafa;
 }
 
-/* Main */
+/* ---------------- Main --------------- */
 
 .main-container {
     height: 70vh;
+    
     background: url('../images/purple.yoga.jpeg') no-repeat bottom center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 
     display: flex;
@@ -48,25 +39,41 @@ body {
     position: relative;
 }
 
-.btn-main {
-    background-color: #491558;
-    border: 5px solid #491558;
-    color: #fafafa;
-}
-
-/* Jumbotron */
-
-.jumbotron-main {
-    position: relative;
-    color: #fafafa;
-    font-weight: 900;
-    font-size: 30px;
-    margin-top: 20px;
-    text-align: center;
+.opaque-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(51, 47, 47, 0.5);
 }
 
 
-/* About */
+/* ---------------- Jumbotron --------------- */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #fafafa;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: 'Sriracha', cursive;
+}
+
+.jumbotron .lead {
+    color: #fafafa;
+    margin: 0 0;
+    font-family: 'Handlee', cursive;
+}
+
+/* ---------------- About --------------- */
+
+.img-fluid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 .about-hr {
     width: 15rem;
@@ -77,10 +84,9 @@ body {
 }
 
 .about-me {
-    text-align: center;
     color:#000000;
-    font-size: 45px;
-    margin-top: 10%; 
+    font-size: 43px;  
+    font-family: 'Sriracha', cursive;
 }
 
 .btn-about {
@@ -91,10 +97,11 @@ body {
     text-align: middle;
 }
 
-.lead {
+.lead-about {
     text-align: center;
     margin-top: 14%;
     margin-left: 20px;
+    font-family: 'Handlee', cursive;
 }
 
 
@@ -106,38 +113,45 @@ body {
 }
 
 
-/* Courses */
+/* ---------------- Courses --------------- */
+
+.container-wrapper {
+    text-align: center;
+    margin-top: 15px;
+}
 
 .courses {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 15px;
+    background: #ece2ec;
 }
 
 .container-courses {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
+    font-family: 'Handlee', cursive;
 }
 
 .fa-leaf {
     color: #491558;
     font-size: 4em;
-    margin: 3px;
+    margin: 1px;
 }
 
 .fa-eye {
     color: #491558;
     font-size: 4em; 
-    margin: 3px;
+    margin: 1px;
 }
 
 .fa-female {
     color: #491558;
     font-size: 4em;
-    margin: 3px;
+    margin: 1px;
 }
 
 
-/* Footer */
+/* ---------------- Footer --------------- */
 
 footer {
     background-image: linear-gradient(to right, rgb(209, 172, 207), rgb(141, 54, 156));
@@ -199,8 +213,7 @@ footer {
 
 .container-plan {
     text-align: center;
-    background-color: #e2cae2;
-    margin-bottom: 60px;
+    background-color: #ece2ec;
 }
 
 .hr-subs {
@@ -211,13 +224,13 @@ footer {
 .subscription{
     margin-top: 25px;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .price {
     margin-top: 30px;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 700;
     color: #491558;
 }
 
@@ -229,8 +242,31 @@ footer {
 
 .btn-plan {
     background-color: #491558;
-    border: 7px solid #491558;
     color: #fafafa;
     margin-top: 30px;
     width: 13rem;
+    border-radius: 12px;
+}
+
+/* ---------------- Modal --------------- */
+
+.modal-title {
+    font-size: 30px;
+    font-weight: 900;
+    color: #491558;
+}
+
+.form-group {
+    font-size: 13px;
+}
+
+.btn-block {
+    background-color: #491558;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 12px;
 }

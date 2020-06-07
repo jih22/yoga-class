@@ -7,7 +7,7 @@
     <title>Yoga Class</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:wght@700&family=Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 <body>
@@ -16,29 +16,22 @@
     <div class="container-fluid navalert-container">
     <nav class="navbar navbar-light  navbar-expand-sm">
        <div class="container-fluid">
-       <a class="navbar-brand" href="/">Yoga Studio</a>
+       <a class="navbar-brand" href="index.html">Yoga Studio</a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
         
 
         <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Courses</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="courses.html">Yoga</a>
-            <a class="dropdown-item" href="courses.html">Meditation & Mindfulness</a>
-            <a class="dropdown-item" href="courses.html">Prenatal Yoga</a>
-        </div>
-        </li>
-            <li class="nav-item mr-2"><a class="nav-link" href="">Contact</a></li>
-            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Book an Appointment</a></li>
+            <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>            
+            <li class="nav-item mr-2"><a class="nav-link" href="courses.html">Courses</a></li> 
+            <li class="nav-item mr-2"><a class="nav-link" data-toggle="modal" data-target="#Contactme">Contact</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" data-toggle="modal" data-target="#forFreeModal">Join Now!</a></li>
         </ul>
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2">
-            <button type="button" class="btn btn-dark">Book an Appointment</button>
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#forFreeModal">Join Now!</button>
         </div>   
         </div>
        </div>
@@ -46,16 +39,17 @@
     </div>
     <!--/.nav-->
     
-    <div class="container-fluid main-container">
+    <div class="container-wrapper main-container">
     <!-- Main -->
-   <div class="row">
+    <div class="opaque-overlay">&nbsp;</div>
+    <div class="row">
         <div class="col-12">
-        <section class="jumbotron-main text-center">
-            <strong><h1>Give Yourself Time</h1></strong>
-            <p>Find your inner peace with a yoga flow</p>
-        </section>
+            <section class="main jumbotron text-center">
+                <h1 class="main jumbotron">Give Yourself Time</h1>
+                    <h2 class="lead">Find your inner peace with a yoga flow.</h2>
+            </section>
         </div>
-   </div>
+    </div>
     <!-- /.main -->
     </div>
     
@@ -69,30 +63,59 @@
                     Classes consist of breath work, yoga postures, sound and chanting as well as meditation. 
                     I sincerely encourage you to have an experience of Kundalini Yoga for yourself. 
                     It will add depth to your existing practice and to your life. Also within the practice are 
-                    built-in moments of stillness where we sit quietly and awaken to our Self. The breathwork within 
+                    built-in moments of stillness where we sit quietly and awaken to our Self.</p> <p>The breathwork within 
                     the kriyas is so powerful that it starts to strip away the layers that veil our consciousness, 
                     and in the sweet moments between poses we can sense the fullness of who we are. The kriyas work on 
                     strengthening your nervous system, balancing your glandular system, purifying the body and calming the mind.</p>
-                    <p>Day:</p>
-                    <p>Time:</p>
+
+                    <h6>What you'll learn</h6>
+                    <ul>
+                        <li>Learn how to activate the parasympathetic nervous system</li>
+                        <li>Strengthen your whole body from head to toe</li>
+                        <li>Powerful breathing techniques to balance the hormonal system</li>
+                        <li>ncrease your body awareness</li>
+                        <li>Gentle, easy and highly effective exercises to 
+                        build up and maintain a strong body and a calm mind</li>
+                    </ul>
+
+                    <br>
              
                     <h3>Meditation & Mindfulness <i class="fas fa-eye header-icon" aria-hidden="true"></i></h3>
                     <p>Mindfulness Meditation should be a practice that anyone can benefit from. 
                     Unfortunately, there is a lot of confusion and complication around this simple practice. 
-                    This course will make it clear, simple and easy for you to practice mindfulness.
-                    No more trying to silence your mind in order to experience deep meditation.
+                    This course will make it clear, simple and easy for you to practice mindfulness.</p>
+                    <p>No more trying to silence your mind in order to experience deep meditation.
                     This is a Complete Mindfulness Meditation Course that will teach you exactly how to live 
                     more peacefully, enjoy your life more fully and experience more happiness and better health.</p>
-                    <p>Day:</p>
-                    <p>Time:</p>
+                    
+                    <h6>You will ble to do after enrolling in this course</h6>
+                    <ul>
+                        <li>Increase Your Concentration</li>
+                        <li>Overcome Negative Thinking</li>
+                        <li>Reduce Anxiety</li>
+                        <li>Deepen Your Spiritual Awareness</li>
+                        <li>Develop a Consistent Mindfulness Practice</li>
+                    </ul>
+                    
                     <br>
-                    <h3>Prenatal Yoga <i class="fas fa-female header-icon" aria-hidden="true"></i> </h3>
+                    
+                    <h3>Prenatal Yoga <i class="fas fa-female header-icon" aria-hidden="true"></i></h3>
                     <p>Yoga is a fantastic form of exercise throughout your whole pregnancy,
-                    and will prepare you both mentally and physically for the upcoming birth of your baby. 
-                    Yoga during pregnancy will increases the well-being for both you and your baby. 
-                    Our yoga has its roots in the Hathayoga tradition is a very powerful way to prepare for birth.</p>
-                    <p>Day:</p>
-                    <p>Time:</p>
+                    and will prepare you both mentally and physically for the upcoming birth of your baby. This can 
+                    be a very exciting time but also a little overwhelming as you are figuring out how to take care 
+                    of yourself and your growing baby at the same time.</p> 
+                    <p>Whether this is your first or your fourth baby, self-care is an essential part of a healthy pregnancy! 
+                    Yoga during pregnancy will increases the well-being 
+                    for both you and your baby. I have created this prenatal yoga class so you can receive all the benefits of 
+                    yoga during your pregnancy.</p>
+                    <h6>Benefits of prenatal yoga</h6>
+                    <ul>
+                        <li>Builds strength and flexibility (to do the work of mothering)</li>
+                        <li>Reduces stress and promotes relaxation (good for mother and baby)</li>
+                        <li> Increases energy (growing a person is exhausting)</li>
+                        <li>Promotes healthy circulation and reduces swelling</li>
+                        <li>Reduces or eliminates common pregnancy discomforts</li>
+                    </ul>
                </div>
             </div>
         </div>
@@ -102,7 +125,7 @@
     
     <!-- Plan -->
    
-   <div class="container-fluid">
+   <div class="container-wrapper">
     <section class="plan">
             <div class="row">
                 <div class="col-12">
@@ -110,15 +133,18 @@
                     <p>Flexible monthly membership or save with an annual membership</p>
                 </div>
             </div>
+            <br>
             <hr class="my-3 hr-subs">
-            <div class="row justify-content-center">
+            
+    <div class="container-wrapper">
+        <div class="row justify-content-center">
             <div class="col-12 col-md-6 col-lg-4 my-3">    
                 <div class="courses container-plan">
                     <h3 class="subscription"> Monthly subscription</h3>
                     <p class="price">€ 14 / month</p>   
                     <p><i class="fas fa-plus"></i> 14 day free trial</p>
                     <p><i class="fas fa-plus"></i> Cancel anytime</p>
-                    <button type="button" class="btn btn-dark btn-plan">Sign Up</button>
+                    <button type="button" class="btn btn-dark btn-plan" data-toggle="modal" data-target="#forFreeModal">Sign Up</button>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 my-3">
@@ -127,16 +153,17 @@
                     <p class="price">€ 11.11/ month</p>   
                     <p><i class="fas fa-plus"></i> 1 month free gift voucher for a friend</p>
                     <p><i class="fas fa-plus"></i> Discounts on yoga wear and accessories</p>
-                    <button type="button" class="btn btn-dark btn-plan">Sign Up</button>           
+                    <button type="button" class="btn btn-dark btn-plan" data-toggle="modal" data-target="#forFreeModal">Sign Up</button>           
                 </div>
             </div>
+        </div>
     </section>
    </div>
    
    <!--./plan--> 
    
     <!-- Footer -->
-
+    <br>
     <footer>
     <div class="container-fluid">
     <div class="row text-center ">
@@ -158,36 +185,89 @@
     <div class="col-md-4 social">
         <strong><h4 class="text-color">Follow me</h4></strong>
         <br>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href=""><i class="fab fa-instagram"></i></a>
-        <a href=""><i class="fab fa-youtube"></i></a>
-        <a href=""><i class="fab fa-google-plus-g"></i></a>
-        <a href=""><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
     </div>
     </div>
     </div>
     </footer>
 
+<!-- Modal Signup-->
 
-
-<div class="modal" tabindex="-1" role="dialog" id="">
-  <div class="modal-dialog">
+<div class="modal" tabindex="-1" role="dialog" id="forFreeModal">
+  <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h5 class="modal-title">Join Yoga Studio</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+            <div class="form-group">
+            <label for="name">Your Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+            <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+        <div class="form-group">
+            <label for="repeatPassword">Repeat Password</label>
+                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+        </div>
+            <button type="button" class="btn btn-dark btn-lg btn-block">Submit -></button>
+    </form>
       </div>
     </div>
   </div>
+</div>
+
+<!--/.modal signup-->
+
+<!-- Contact -->
+<div class="modal" tabindex="-1" role="dialog" id="Contactme">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Contact me</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+    <form>
+            <div class="form-group">
+            <label for="name">Your Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Your Name">
+            </div>
+
+            <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your message</label>
+                <textarea class="form-control" id="message" placeholder="Type your message here" rows="3"></textarea>
+            </div>
+            
+            <button type="button" class="btn btn-dark btn-lg btn-block">Send Your Message</button>
+    </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.contact -->
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

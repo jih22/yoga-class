@@ -7,59 +7,50 @@
     <title>Yoga Class</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:wght@700&family=Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 <body>
     
     <!-- Nav -->
-    <div class="container-fluid navalert-container">
-    <nav class="navbar navbar-light  navbar-expand-sm">
-       <div class="container-fluid">
-       <a class="navbar-brand" href="/">Yoga Studio</a>
+<nav class="navbar navbar-light navbar-expand-sm">
+       <a class="navbar-brand" href="index.html">Yoga Studio</a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
         
-
         <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Courses</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="courses.html">Yoga</a>
-            <a class="dropdown-item" href="courses.html">Meditation & Mindfulness</a>
-            <a class="dropdown-item" href="courses.html">Prenatal Yoga</a>
-        </div>
-        </li>
-            <li class="nav-item mr-2"><a class="nav-link" href="">Contact</a></li>
-            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Book an Appointment</a></li>
+            <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>            
+            <li class="nav-item mr-2"><a class="nav-link" href="courses.html">Courses</a></li> 
+            <li class="nav-item mr-2"><a class="nav-link" data-toggle="modal" data-target="#Contactme">Contact</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" data-toggle="modal" data-target="#forFreeModal">Join Now!</a></li>
         </ul>
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2">
-            <button type="button" class="btn btn-dark btn-nav">Book an Appointment</button>
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#forFreeModal">Join Now!</button>
         </div>   
         </div>
-       </div>
     </nav>
-    </div>
+    
     <!--/.nav-->
     
-    <div class="container-fluid main-container">
+    <div class="container-wrapper main-container">
     <!-- Main -->
-    <div class="row">
+    <div class="opaque-overlay">&nbsp;</div>
+    <div class="row main-row">
         <div class="col-12">
-            <section class="jumbotron-main">
-                <h1><strong>Give Yourself Time</strong></h1>
-                    <p>Find your inner peace with a yoga flow.</p>
+            <section class="main jumbotron text-center">
+                <h1 class="main jumbotron">Give Yourself Time</h1>
+                    <h3 class="lead">Find your inner peace with a yoga flow.</h3>
                      <br>
-                    <button class="btn btn-lg btn-dark btn-main" data-toggle="modal" data-target="">Book an Appointment</button>
+                    <a href="courses.html" class="btn btn-dark btn-lg active btn-main" role="button" aria-pressed="true">Learn More</a>
             </section>
         </div>
     </div>
     <!-- /.main -->
     </div>
+    
     <br>
     <br>
     <!-- About -->
@@ -72,14 +63,16 @@
                 </div>
                 <div class="col-md-6">
                     <h1 class="about-me">About me</h1>
+                    <div class="d-none d-sm-block">
                     <hr class="about-hr">
-                    <p class="lead"> I practice and teach both Hatha and Kundalini Yoga. I see my Hatha practice as daily maintenance — 
+                    </div>
+                    <p class="lead lead-about"> I practice and teach both Hatha and Kundalini Yoga. I see my Hatha practice as daily maintenance — 
                     a great way to work out kinks in my body, get grounded and calm. My Kundalini practice is a place 
                     of transformation. The kriyas and meditations are much more specific than your regular flow class, 
                     much like an Iyengar practice, but rather than focusing on physical alignment, the kriyas are a 
                     specific set of exercises that generate energy, organize that energy and deliver you to a specific 
                     energetic state — particularly one of greater awareness.</p>
-                     <button type="button" class="btn btn-dark btn-about">Read more</button>
+                     <button type="button" class="btn btn-dark btn-about" href="about.html">Read more</button>
                 </div>
             </div>
         </div>
@@ -90,7 +83,8 @@
       <br>  
  
     <!-- Courses -->    
-    <div class="container-fluid">
+    
+    <div class="container-wrapper">
         <section class="courses">
             <div class="row">
                 <div class="col-12 my-2">
@@ -144,15 +138,14 @@
     <div class="container-fluid">
     <div class="row center-footer">
         <div class="col-md-4">
-            <a href=""><i class="far fa-clock my-3"></i></a>
+            <i class="far fa-clock my-3"></i>
             <br>
             <p>Monday-Friday: 9am - 6pm</p>
-            <p>Saturday:10am - 5pm</p>
-            <p>Sunday:closed</p> 
+            <p>Saturday: 10am - 5pm</p>
+            <p>Sunday: closed</p> 
         </div>
     <div class="col-md-4">
-        <a href=""><i class="far fa-address-card my-3"></i></a>
-        <br>
+        <i class="far fa-address-card my-3"></i>
         <p>555 44 333</p>
         <p>yogastudio@yahoo.com</p>
         <p>Northmill 23A,</p> 
@@ -161,36 +154,87 @@
     <div class="col-md-4 social">
         <strong><h4 class="text-color">Follow me</h4></strong>
         <br>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href=""><i class="fab fa-instagram"></i></a>
-        <a href=""><i class="fab fa-youtube"></i></a>
-        <a href=""><i class="fab fa-google-plus-g"></i></a>
-        <a href=""><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
     </div>
     </div>
     </div>
     </footer>
+<!-- Modal Signup-->
 
-
-<div class="modal" tabindex="-1" role="dialog" id="">
-  <div class="modal-dialog">
+<div class="modal" tabindex="-1" role="dialog" id="forFreeModal">
+  <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h5 class="modal-title">Join Yoga Studio</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+            <div class="form-group">
+            <label for="name">Your Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+            <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+        <div class="form-group">
+            <label for="repeatPassword">Repeat Password</label>
+                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+        </div>
+            <button type="button" class="btn btn-dark btn-lg btn-block">Submit -></button>
+    </form>
       </div>
     </div>
   </div>
 </div>
+
+<!--/.modal signup-->
+
+<!-- Contact -->
+<div class="modal" tabindex="-1" role="dialog" id="Contactme">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Contact me</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+    <form>
+            <div class="form-group">
+            <label for="name">Your Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Your Name">
+            </div>
+
+            <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your message</label>
+                <textarea class="form-control" id="message" placeholder="Type your message here" rows="3"></textarea>
+            </div>
+            
+            <button type="button" class="btn btn-dark btn-lg btn-block">Send Your Message</button>
+    </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.contact -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
