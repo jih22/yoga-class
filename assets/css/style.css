@@ -1,27 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:wght@700&family=Sriracha&display=swap:400,500,600,700');
 
 /* ---------------- Nav --------------- */
-
+.nav {
+    width: 100%;
+    font-family: 'Sriracha', cursive;
+}
 
 .navbar .navbar-brand {
     font-weight: 800;
+    font-size: 24px;
     color: #491558;
     font-family: 'Sriracha', cursive;
 }
 
-.navbar {
-    background-color: transparent;
-    display: block;
-}
-
-.navalert-container {
-    position: absolute;
-    z-index: 1;
+.navbar-nav{
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
 }
 
 .btn-nav {
     background-color: transparent;
     color: #fafafa;
+    font-family: 'Sriracha', cursive;
+}
+
+.btn-dark {
+    font-family: 'Sriracha', cursive;
 }
 
 /* ---------------- Main --------------- */
@@ -38,11 +42,20 @@
     position: relative;
 }
 
+
 .opaque-overlay {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(51, 47, 47, 0.5);
+    background-color: rgba(69, 38, 77, 0.5);
+}
+
+.btn-main {
+    color: #fff;
+    background-color: #491558;
+    border-color: #491558;;
+    margin-top: 35px;
+    font-family: 'Sriracha', cursive;
 }
 
 .no-margin {
@@ -97,13 +110,13 @@
     color: #fafafa;
     margin-top: 30px;
     text-align: middle;
+    font-family: 'Sriracha', cursive;
 }
 
 .lead-about {
     text-align: center;
     margin-top: 14%;
     margin-left: 20px;
-    font-family: 'Handlee', cursive;
 }
 
 
@@ -122,6 +135,10 @@
     margin-top: 15px;
 }
 
+.headline {
+   font-family: 'Handlee', cursive;
+}
+
 .courses {
     text-align: center;
     margin-top: 15px;
@@ -131,7 +148,6 @@
 .container-courses {
     text-align: center;
     margin-bottom: 48px;
-    font-family: 'Handlee', cursive;
 }
 
 .fa-leaf {
@@ -156,13 +172,14 @@
 /* ---------------- Footer --------------- */
 
 footer {
-    background-image: linear-gradient(to right, rgb(209, 172, 207), rgb(141, 54, 156));
+    background-image: linear-gradient(to right, rgb(185, 140, 183), rgb(118, 56, 129));
     color: #fafafa;
     padding-top: 1rem;
 }
 
 .center-footer {
     text-align: center;
+    font-family: 'Handlee', cursive;
 }
 
 .fa-clock {
@@ -199,7 +216,6 @@ footer {
 .about-header {
     font-family: 'Sriracha', cursive;
     font-size: 45px;
-
 }
 
 
@@ -207,13 +223,30 @@ footer {
 
 /* Header */
 
+.header-container {
+    margin-top: 100px;
+}
+
+.highlight {
+    font-family: 'Sriracha', cursive;
+}
+
 .header-icon {
     font-size: 27px;
 }
 
-.plan-plan {
+.plan-subs {
     text-align: center;
-    margin-top: 30px;
+}
+
+.small-text {
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+}
+
+
+.header-plan {
+    font-family: 'Sriracha', cursive;
 }
 
 .container-plan {
@@ -222,14 +255,14 @@ footer {
 }
 
 .hr-subs {
-    width: 15rem;
+    width: 13rem;
     border-top: 4px solid #491558;
 }
 
 .subscription{
     margin-top: 25px;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .price {
@@ -237,12 +270,14 @@ footer {
     font-size: 30px;
     font-weight: 700;
     color: #491558;
+    font-family: 'Sriracha', cursive;
 }
 
 .fa-plus {
     margin-top: 25px;
     font-size: 15px;
     color: #491554;
+    
 }
 
 .btn-plan {
@@ -251,6 +286,8 @@ footer {
     margin-top: 30px;
     width: 13rem;
     border-radius: 12px;
+    font-size: 18px;
+    font-family: 'Sriracha', cursive;
 }
 
 /* ---------------- Modal --------------- */
@@ -259,10 +296,12 @@ footer {
     font-size: 30px;
     font-weight: 900;
     color: #491558;
+    font-family: 'Sriracha', cursive;
 }
 
 .form-group {
     font-size: 13px;
+    font-family: 'Handlee', cursive;
 }
 
 .btn-block {
@@ -274,4 +313,5 @@ footer {
     display: inline-block;
     font-size: 15px;
     border-radius: 12px;
+    font-family: 'Sriracha', cursive;
 }
