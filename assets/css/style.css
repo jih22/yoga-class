@@ -216,6 +216,42 @@ footer {
 .about-header {
     font-family: 'Sriracha', cursive;
     font-size: 45px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.aboutme-hr {
+    width: 45px;
+    border-top: 4px solid #491558;
+    margin-bottom: 30px;
+}
+
+.wrapper h1 {
+    font-family: 'Sriracha', cursive;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.my-image {
+    padding: 0 9px 7px;
+    align-items: center;
+}
+
+.my-image:hover {
+    transition: 7s;
+    transform: scale(1.4);
 }
 
 
