@@ -357,13 +357,13 @@ footer {
 .thankyou-page {
     text-align: center;
     background-image: linear-gradient(to right, rgb(185, 140, 183), rgb(118, 56, 129));
-    margin-top: 30%;
+    margin-top: 60px;
 }
 
 .thankyou-lead {
     margin-top: 30px;
     font-size: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .btn-sm {
