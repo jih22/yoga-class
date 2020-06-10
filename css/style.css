@@ -226,7 +226,7 @@ footer {
     margin-bottom: 30px;
 }
 
-.wrapper h1 {
+.wrapper h2 {
     font-family: 'Sriracha', cursive;
     font-size: 40px;
     font-weight: 800;
@@ -350,4 +350,23 @@ footer {
     font-size: 15px;
     border-radius: 12px;
     font-family: 'Sriracha', cursive;
+}
+
+/* ---------------- thankyou.html --------------- */
+
+.thankyou-page {
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(185, 140, 183), rgb(118, 56, 129));
+    margin-top: 30%;
+}
+
+.thankyou-lead {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.btn-sm {
+    background-color: #491558;
+    border: none;
 }
