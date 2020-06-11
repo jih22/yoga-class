@@ -1,81 +1,81 @@
-# Your Project's Name
+# Yoga Studio
+## Code Institute - User Centric Frontend Development Milestone Project 
 
-One or two paragraphs providing an overview of your project.
+This site is currently published on the following link: [YogaStudio](https://jih22.github.io/yoga-class/)
 
-Essentially, this part is your sales pitch.
+The goal was to create a website for a private yoga teacher, this is a typical common 
+website and very very simple. It’s very similar to the original project [WhiskeyDrop](https://github.com/jih22/bootstrap4).
+
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- As a user, I want a mobile friendly website and responsive. 
+- As a user, I want to easily navigate the site.
+- As a user, I want to view the image gallery without having an issue.
+- As a user, I want to follow/connect to the person thru social media. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### Wireframes
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
+![Homepage](/images/HOME.png)
+![About](/images/aboutme.png)
+![COURSES](/images/COURSES.png)
+![CONTACT&SIGNUP](/images/contact&signup.png)
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+* Navigation bar with page links (ALL PAGES) - Allows users to reach all available pages on the site.
+* Home is my main page and have a little presentation about the website.
+* About page provide potential clients to know the teacher.
+* Courses allows the client to choose subscription. 
+* Footer  - The "quick links"  social icon link and contact, book address and hours available.
+* Contact & SignUp form (modal) - Basic layout taken from previous modules studied.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+### Future Features
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- In the future I would like to updated capabilities for all forms on this site, like animation, hover, transiton etc. 
+- Put testimonials would all help explain the quality of the services to the user.
+- Also I would like to add more features, online videos classes in the future.
+- Payment functionality to process real credit cards.
 
-### Features Left to Implement
-- Another feature idea
+### Know Issue
+- For some reason the pages had some margin issue, so I wrote *"no-margin"* to all *"row"* and it works well. Thanks to my mentor!
+- *required* html not working I tried to fix but no luck. 
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+* HTML - Used as the base for markup text.
+* CSS - Used as the base for cascading styles.
+* I used Bootstrap creating the navbar which is ensuring mobile-first design and responsive size display.
+* The project also uses [BootstrapCDN](https://www.bootstrapcdn.com/)to provide icons from [Fontawesome](https://fontawesome.com/).
+* [Google Fonts](https://fonts.google.com/) to style the website fonts. 
+* [JQuery](https://jquery.com)The project uses **JQuery** to simplify DOM manipulation.
+* [PopperJS](https://popper.js.org/) required for Bootstrap functionality.  
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+* This website was constantly tested while development using Chrome dev tools. I used this to resize the browser to check new code was working, and different mobile/tablet screen sizes. 
+* This website was tested on Windows desktop computer and on Android phones Samsung Galaxy S7 & s8, Samsung A70, Oppo F7. 
+* The website was also tested in Safari browser on iPad Pro 10.2 and on Mac using online service Crossbrowser Testing. Also tested in Safari browser. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+* The HTML code was validated using The W3C Markup Validation Service. Validation service noted that I have Unclosed element </div> and I got some Error & Warning about Duplicate ID name, so I checked any errors and sorted them if needed.
+* The CSS code was validated using CSS validator The W3C CSS Validation Service. I got Error: "text-align: middle is not a text-align value".
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-
-## Credits
+- The hosting platform for this site is Github Pages, deployed directly from the master branch. The landing page is index.html.
+- You can run the website locally by cloning the repository or using this command in your terminal git clone https://github.com/jih22/yoga-class.git
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
+The text for courses.html was originate from the 
+- [UdemyMindfulness](https://www.udemy.com/course/mindfulness-meditation/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.ROWMTA-A&utm_content=deal4584&utm_term=_._ag_80979682074_._ad_382036689528_._kw__._de_c_._dm__._pl__._ti_dsa-1007766171512_._li_9062470_._pd__._&matchtype=b&gclid=Cj0KCQjwn7j2BRDrARIsAHJkxmzk-2GDioNNkHfWYlcpwc08htzQ7V7nQSl4NI2XMAG8tzq9hHu7WysaAtG8EALw_wcB)
+- [UdemyKundalini](https://www.udemy.com/course/beginners-kundalini-yoga-course-for-a-healthy-belly/)
+- [UdemyPrenatalYoga](https://www.udemy.com/course/prenatal-yoga-strengthening-and-opening/)
 ### Media
-- The photos used in this site were obtained from google.
+- The photos used in this site were obtained from [GoogleImages](https://www.google.com/search?q=yoga+photo&sxsrf=ALeKk01Ux0fFsGmLsUGmF8BSwbbtR4oSYQ:1591828240309&source=lnms&tbm=isch&sa=X&ved=2ahUKEwia87mmpvjpAhUKyKYKHcKiC1EQ_AUoAXoECBIQAw&biw=1397&bih=743)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I am very grateful to my mentor **Dick Vlaanderen** for the guidance, advice and patience throughout the project.
+-  I would also like to thank the **Code Institute-Student Care** for checking me out.
+- To **Claire Lally** who was always available and very generous with her time when I'm stuck on a problem and fixing my schedule.
+## Final 
+- I actually not satisfied and dissapointed due of lack of time and focusing I didn't achieve the idea that I would like to create.
+- Starting this first project having begun the course with no coding knowledge, this was a big challenge for me.
