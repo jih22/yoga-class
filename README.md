@@ -36,7 +36,7 @@ website and very very simple. It’s very similar to the original project [Whisk
 - Also I would like to add more features, online videos classes in the future.
 - Payment functionality to process real credit cards.
 
-### Know Issue
+### Known Issue
 - For some reason the pages had some margin issue, so I wrote *"no-margin"* to all *"row"* and it works well. Thanks to my mentor!
 - *required* html not working I tried to fix but no luck. 
 
@@ -54,7 +54,7 @@ website and very very simple. It’s very similar to the original project [Whisk
 
 * This website was constantly tested while development using Chrome dev tools. I used this to resize the browser to check new code was working, and different mobile/tablet screen sizes. 
 * This website was tested on Windows desktop computer and on Android phones Samsung Galaxy S7 & s8, Samsung A70, Oppo F7. 
-* The website was also tested in Safari browser on iPad Pro 10.2 and on Mac using online service Crossbrowser Testing. Also tested in Safari browser. 
+* Also tested in Safari browser. 
 
 * The HTML code was validated using The W3C Markup Validation Service. Validation service noted that I have Unclosed element </div> and I got some Error & Warning about Duplicate ID name, so I checked any errors and sorted them if needed.
 * The CSS code was validated using CSS validator The W3C CSS Validation Service. I got Error: "text-align: middle is not a text-align value".
